@@ -1,0 +1,142 @@
+/* Home.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ecf0f1;
+}
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #3498db, #2c3e50);
+  border-radius: 35px ;
+  color: #fff;
+  padding: 20px;
+}
+
+
+.content p {
+  font-size: 18px;
+  color: #555;
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.content p::before {
+  content: '\201C'; /* Unicode for opening double quotation mark */
+  font-size: 36px;
+  color: #3498db;
+  margin-right: 10px;
+}
+
+.content p::after {
+  content: '\201D'; /* Unicode for closing double quotation mark */
+  font-size: 36px;
+  color: #3498db;
+  margin-left: 10px;
+}
+
+
+.icon {
+  margin-right: 10px;
+}
+
+.content {
+  text-align: center;
+  margin: 20px;
+}
+
+.button {
+  padding: 10px 15px;
+  font-size: 15px;
+  text-align: center;
+  text-decoration: none;
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.login-button {
+  background: #2e38cc;
+  color: #fff;
+}
+
+.booking-button {
+  background: #e6d222;
+  color: #fff;
+}
+
+.button:hover {
+  background-color: #78aee4;
+}
+
+
+
+
+.about-us,
+.contact-us {
+  background: #ffffff70;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 20px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  color: #333;
+}
+
+h2 {
+  color: #3498db;
+}
+
+p {
+  color: #555;
+}
+
+.icon-about,
+.icon-contact {
+  margin-top: 20px;
+  font-size: 36px;
+  color: #525455;
+
+}
+
+.contact-info {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+ 
+}
+
+.social-icons a {
+  margin: 0 10px;
+  color: #1336d4;
+}
+
+.comment-form {
+  margin-top: 10px;
+}
+
+.comment-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #dddddd96;
+  border-radius: 20px;
+  resize: none;
+}

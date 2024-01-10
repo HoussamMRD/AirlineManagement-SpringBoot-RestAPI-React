@@ -1,0 +1,29 @@
+.add-plane-container {
+    max-width: 450px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid rgba(27, 74, 173, 0.686);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(10, 88, 161, 0.568);
+    background-color: rgba(219, 236, 241, 0.548);
+    margin-top: 50px;
+  }
+  
+  .add-plane-container h1 {
+    display: flex;
+    align-items: center;
+    color: #007bff;
+  }
+  
+  .add-plane-container form {
+    margin-top: 25px;
+  }
+  
+  .add-plane-container button {
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-left: 100px;
+    border-radius: 15px;
+
+  }
+  
