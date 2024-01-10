@@ -1,2 +1,2 @@
-# AirplaneManagement-SpringBoot-RestAPI-React
-AirplaneManagement with SpringBoot &amp; RestAPI &amp; React
+# AirlineManagement-SpringBoot-RestAPI-React
+AirlineManagement with SpringBoot &amp; RestAPI &amp; React
